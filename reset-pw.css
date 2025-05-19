@@ -1,0 +1,159 @@
+:root {
+  --font-family-inter: "Cascadia code", sans-serif;
+  --text-black: rgba(0, 0, 0, 0.56);
+  --text-rgb-39-84-138: rgba(39, 84, 138, 1);
+  --text-white: rgba(255, 255, 255, 1);
+}
+
+.text-black {
+  color: var(--text-black);
+}
+
+.text-rgb-39-84-138 {
+  color: var(--text-rgb-39-84-138);
+}
+
+.text-white {
+  color: var(--text-white);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family-inter);
+  background-color: rgba(243, 243, 224, 1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.desktop-5-1 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(243, 243, 224, 1);
+}
+
+@media (max-width: 1440px) {
+  .desktop-5-1 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop-5-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.rectangle-15-2 {
+  width: 634px;
+  height: 550px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(24, 59, 78, 1);
+  border-radius: 50px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.text-5 {
+  margin-left: 51px;
+  margin-top: 73px;
+  font-family: var(--font-family-inter);
+  font-weight: 700;
+  font-size: 64px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-39-84-138);
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+input {
+  width: 532px;
+  padding: 20px;
+  height: 71px;
+  margin: 25px 0 1px 51px;
+  background-color: rgba(219, 210, 210, 0);
+  border: 2px solid rgba(221, 168, 83, 1);
+  border-radius: 20px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+input:focus {
+   outline: none; /* Menghilangkan outline */
+   box-shadow: none; /* Menghilangkan efek bayangan */
+}
+   
+
+.text-4 {
+  font-family: var(--font-family-inter);
+  font-weight: 500;
+  font-size: 28px;
+  color: #7e7d7d;
+}
+
+.rectangle-20-7 {
+  margin-top: 47px;
+  margin-left: 51px;
+  width: 532px;
+  height: 71px;
+  background-color: rgba(39, 84, 138, 1);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+button {
+  font-family: var(--font-family-inter);
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--text-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 532px;
+  height: 71px;
+  margin: 45px 0 0 51px;
+  background-color: var(--text-rgb-39-84-138);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: #002244; /* Warna tombol saat hover */
+}
+
+.group-20-6 {
+  left: 694px;
+  top: 655px;
+  width: 532px;
+  height: 71px;
+  margin-left: 51px;
+  margin-top: 73px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
